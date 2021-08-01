@@ -4,7 +4,7 @@ def bubbleSort(arr,n):
     while (low<=high):
         mid = (low + high) // 2
         if (n == arr[mid]):
-            return mid ## this is not output, its index.
+            return mid ## this is not value, its index.
         elif (n >= arr[mid]):
             low = mid + 1
         else:
